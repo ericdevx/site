@@ -1,0 +1,34 @@
+Home page para site de viagens
+
+<!-- HTML -->
+
+1º: uma tag <main> com o id="home" (o id home vai servir pra usar na navbar, quando a gente faz uma navbar, dentro da tag a sempre tem um "#" então, o id server pra você colocar algo depois de "#" então fica <li><a href="#home"></a><li>)
+2º: crie uma div com a class="container" (a div container, vai servir para você agrupar as outras div, deixar mais arrumado para colocar texto ou qualquer outra coisa que vai aparecer na página)
+3º: crie outra div com a class="content" (a div content, vai ser a div onde vai agrupar todo o conteúdo da página, exemplo; se eu quiser colocar um texto na minha página eu vou colocar a tag h1 por exemplo, dentro da div content e isso serve para qualquer outra tag)
+4º: depois de ter feito todos os outros passos anteriores, agora e so colocar o que você vai usar na página, se você quiser colocar um titulo use as tags; H1, H2, H3, se for colocar um texto embaixo do titulo, use a tag "p" que significa paragráfo, caso queira colocar um botão embaixo do titulo e do texto utilize a tag <button> que vai criar um botão pra você, e se você quiser que esse botão te mande para alguma outra parte do site e so colocar um href e o destino)
+
+<!-- CSS -->
+
+TAGS #home .container {
+
+1º: primeiro pegamos as tag #home e .container e vamos colocar um position relative (o position relative serve para determinar que o elemento selecionado será posicionado de acordo com o fluxo natural da página)
+2º: depois vamos dar um width 100% height 100vh e um bottom 6.9vh (o width e height vai servir para que o background fique do tamanho da página) As unidades relativas vw (viewport width) e vh (viewport height) utilizam a largura e altura da viewport respectivamente. Com elas é possível atribuir a um elemento o tamanho (seja altura, seja largura) da viewport. Essa unidade de medida é muito parecida com a unidade relativa de porcentagem %
+3º: depois vamos colocar o background usando o url então o codigo fica; background: url(./img/bg-1.jpg);  <-- (url de exemplo oque você vai fazer é, ver onde estão as suas imagens e colocar o url delas usando . e / igual foi feito no exemplo)
+4º: depois de colocar o background, vamos colocar um background-size: no-repeat center center; que vai servir para que o fundo igual foi falado na dica acima não ficar se repetindo quando você for deixar responsivo e para que ele sempre fique centralizado
+
+}
+
+
+TAGS #home .container .content {
+
+1º: vamos usar width 80% e height 80vh senão, todo o conteúdo dentro da tag content vai ficar muito para baixo e pode até pegar na outra section e não vai dar um aspecto bom pro site que você pode estar fazendo
+2º: depois vamo usar um display flex, align-items flex start e justify-content flex end para deixar todos o conteudo dentro do content no lado esquerdo do site, o que da um aspecto muito bonito pro site (caso queiria entender mais de flexblox no css acesse esse site: https://www.alura.com.br/artigos/css-guia-do-flexbox?gclid=CjwKCAjw9LSSBhBsEiwAKtf0n7t2FJevzym523f_L0ZcZCKFaAWrJNzoF6yNkSf-QOVYX86T998-GxoC6GMQAvD_BwE)
+3º:
+4º:
+
+
+
+
+
+
+

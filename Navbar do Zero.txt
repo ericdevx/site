@@ -1,0 +1,32 @@
+<!---- HTML ----!>
+
+1º: header
+2º: tag nav
+3º: tag ( <a> ) com a class="logo"
+4º: ul com a class="navbar"
+5º: li com a tag ( <a> ) e dentro dessa tag <a> deve ter; Home, About e Contact
+no minimo
+
+//----- CSS ----//
+
+6º: sempre colocar um ( * ) com; margin: 0; padding: 0; e box-sizing: border-box;
+7º: as tags ( <a> ) sempre deve ser da cor branca com efeito de hover com um text-decoration: none;
+
+//-- Navbar --//
+
+8º: a logo deve ter um font-size de um tamanho bom entre 18px e 25px
+sempre estar em UPPERCASE (uppercase são as letras maiusculas) e também ter um letter-spacing de 4px
+9º: a class nav sempre deve ter um display: flex; justify-content: space-around;
+align-items: center; e font-family, pode ser qualquer fonte que você quiser
+10º: background da navbar com a cor que você quiser e um height de 8vh
+11º: para a class navbar vamos usar um list-style: none; para tirar os pontos que fica na frente da palavra e um display: flex;
+12º: na class navbar li vamos usar um letter-spacing: 3px; e margin-left: 32px; para afastar um item um do outro
+
+
+
+//-- Fundo --//
+
+13º: na tag main, colocar um fundo usando background: url("url para pegar a imagem") no-repeat center center;
+isso vai que a imagem sempre fique centralizada
+14º: usar background-size: cover; caso a imagem for maior do que a do monitor e um height de 92vh para completar o resto
+do espaço que ficou em branco, ja que usamos 8vh na navbar
